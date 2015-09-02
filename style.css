@@ -1,0 +1,627 @@
+@font-face {
+	font-family: first;
+	src: url('HiTall.otf');
+}
+@font-face {	
+	font-family: text;
+	src: url('Prototype.ttf');
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	background-color: #4DD5FF;
+	width: 100%;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.hover {
+	color: black;
+}
+.select {
+	color: black !important;
+	background-color: white;
+}
+img { 
+    display: inline-block;
+}
+
+#top{
+	background-color: black;
+	height: 100px;
+	color: white;
+	border-right: 5px solid black;
+
+}
+#imgC{
+	height: 100%;
+	width: 33%;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: black;
+}
+#top img {
+	background-color: black;
+	vertical-align: middle;
+	max-height: 100%;
+	max-width: 100%;
+}
+.content{
+	width: 100%;
+}
+#topText {
+	height: 100%;
+	width: 30%;
+	font-size: 20px;
+	display: inline-block;
+	color: white;
+	margin-right: 5px;
+	background-color: black;
+	vertical-align: middle;
+	text-align: right;
+	float: right;
+}
+#leftButton {
+	margin-left: 2%;
+	margin-top: 270px;
+	float: left;
+	display: block;
+	vertical-align: middle;
+	width: 5%;
+	height: 60px;
+	position: absolute;
+	background-image: url('leftButton.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#rightButton {
+	
+	margin-left: 42%;
+	margin-top: 270px;
+	float: right;
+	vertical-align: middle;
+	width: 5%;
+	height: 60px;
+	position: absolute;
+	background-image: url('rightButton.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#OpenContainer {
+	width: 30%;
+	margin-top: 0;
+	float: left;
+	height:100%;
+	margin-left: 10%;	
+	background-color: white;
+	border-radius: 3px;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	overflow: hidden;
+}
+#Project {
+	width: 100%;
+	height: 40%;
+	line-height: 150px;
+	margin-bottom: 0;
+	outline: 5px solid black;
+	font-family: first;
+	font-size: 70px;
+	TEXT-ALIGN: CENTER;
+	vertical-align: center;
+	color: white;
+}
+#wrap{
+	height: 400px;
+	width: 100%;
+	display: inline-block;
+	outline: 5px solid black;
+}
+#infoBox {
+	width:40%;
+	margin-top: 0;
+	float: right;
+	height: 400px;
+	outline: 5px solid black;
+	
+}
+.text {
+	font-family: first;
+	text-align: center;
+	font-size: 0.666em;
+	line-height: 1;
+	z-index: 501;
+	line-height: 75px;
+	
+}
+.Menu {
+
+	width: 100%;
+	margin: 0px;
+
+}
+.Box {
+	width: 25%;
+	font-family: 'first';
+	float: left;
+	font-size: 45px;
+	line-height: 1;
+	color: white;
+	height: 75px;
+	outline: 5px solid black;
+}
+#aboutMe{
+	width: 100%;
+	margin: 0px auto;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+.aboutText {
+	font-family: text;
+	font-size: 20px;
+	width: 95%;
+	margin-top: 5px;
+	margin-left:10px;
+	margin-right:5px;
+	margin-bottom:5px;
+}
+.smallText {
+	font-family: text;
+	font-size: 17px;
+}
+#experience {
+	height: 500px;
+	width: 100%;
+	margin: 0px auto;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+#education {
+	height: 500px;
+	width: 100%;
+	margin: 0px auto;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+#skills {
+	height: 500px;
+	width: 100%;
+	margin: 0px auto;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 960px) {
+* {
+	margin: 0px;
+	padding: 0px;
+	background-color: red;
+	width: 100%; 
+}
+#top{
+	background-color: black;
+	height: 80px;
+	color: white;
+	border-right: 5px solid black;
+}
+#imgC{
+	height: 100%;
+	width: 33%;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: black;
+}
+#top img {
+	display: inline-bock;
+	background-color: black;
+	vertical-align: middle;
+	max-height: 100%;
+	max-width: 100%;
+}
+#content{
+	width: 100%;
+}
+#OpenContainer {
+	width: 30%;
+	margin-top: 0;
+	float: left;
+	margin-left: 10%;	
+	height: 100%;
+	background-color: white;
+	border-radius: 3px;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	overflow: hidden;
+}
+#wrap{
+	height:350px;
+	width: 100%;
+	display: inline-block;
+	outline: 5px solid black;
+}
+#infoBox {
+	width:40%;
+	margin-top: 0;
+	float: right;
+	height: 350px;
+	outline: 5px solid black;
+	
+}
+#topText {
+	height: 100%;
+	width: 29%;
+	display: inline-block;
+	color: white;
+	font-size: 15px;
+	background-color: black;
+	vertical-align: middle;
+	float: right;
+}
+#leftButton {
+	margin-left: 1%;
+	margin-top: 230px;
+	float: left;
+	display: block;
+	vertical-align: middle;
+	width: 7%;
+	height: 60px;
+	position: absolute;
+	background-image: url('leftButton.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#rightButton {
+	
+	margin-left: 43%;
+	margin-top: 230px;
+	float: right;
+	vertical-align: middle;
+	width: 7%;
+	height: 60px;
+	position: absolute;
+	background-image: url('rightButton.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.text {
+	font-family: first;
+	text-align: center;
+	font-size: 0.666em;
+	line-height: 1;
+	z-index: 501;
+	line-height: 75px;	
+}
+.Menu {
+	width: 100%;
+}
+.Box {
+	width: 25%;
+	font-family: 'first';
+	float: left;
+	font-size: 35px;
+	line-height: 1;
+	color: white;
+	height: 75px;
+	outline: 5px solid black;
+}
+#experience {
+	height: 500px;
+	width: 100%;
+	margin: 0px auto;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+#education {
+	background-color: white;
+	height: 500px;
+	width: 100%;
+	margin: 0px auto;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+#skills {
+	height: 500px;
+	width: 100%;
+	margin: 0px auto;
+	border: 2px solid white;
+	border-radius: 5px;
+}	
+}
+
+@media screen and (max-width: 768px) {
+* {
+	margin: 0px;
+	padding: 0px;
+	background-color: yellow;
+	width: 100%; 
+}
+#top{
+	background-color: black;
+	height: 60px;
+	border-right: 5px solid black;	
+	color: white;
+}
+#imgC{
+	height: 100%;
+	width: 33%;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: black;
+}
+#top img {
+	display: inline-bock;
+	background-color: black;
+	vertical-align: middle;
+	max-height: 100%;
+	max-width: 100%;
+}
+#content{
+	width: 100%;
+}
+#OpenContainer {
+	width: 30%;
+	margin-top: 0;
+	float: left;
+	margin-left: 12%;	
+	height: 100%;
+	background-color: white;
+	border-radius: 3px;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	overflow: hidden;
+}
+#wrap{
+	height:250px;
+	width: 100%;
+	display: inline-block;
+	outline: 5px solid black;
+}
+#infoBox {
+	width:40%;
+	margin-top: 0;
+	float: right;
+	height: 250px;
+	outline: 5px solid black;
+	
+}
+#topText {
+	height: 100%;
+	width: 30%;
+	display: inline-block;
+	color: white;
+	font-size: 11px;
+	background-color: black;
+	vertical-align: middle;
+	float: right;
+}
+#leftButton {
+	margin-left: 1%;
+	margin-top: 140px;
+	float: left;
+	display: block;
+	vertical-align: middle;
+	width: 7%;
+	height: 60px;
+	position: absolute;
+	background-image: url('leftButton.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#rightButton {
+	margin-left: 47%;
+	margin-top: 140px;
+	float: right;
+	vertical-align: middle;
+	width: 7%;
+	height: 60px;
+	position: absolute;
+	background-image: url('rightButton.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.text {
+	font-family: first;
+	text-align: center;
+	font-size: 0.666em;
+	line-height: 1;
+	z-index: 501;
+	line-height: 60px;	
+}
+.Menu {
+	width: 100%;
+
+}
+.Box {
+	width: 25%;
+	font-family: 'first';
+	float: left;
+	font-size: 25px;
+	line-height: 1;
+	color: white;
+	height: 60px;
+	outline: 5px solid black;
+}
+#aboutMe{
+	height: 500px;
+	width: 100%;
+	margin: 0px auto;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+#experience {
+	height: 500px;
+	width: 100%;
+	margin: 0px auto;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+#education {
+	background-color: white;
+	height: 500px;
+	width: 100%;
+	margin: 0px auto;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+#skills {
+	height: 500px;
+	width: 100%;
+	margin: 0px auto;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+}
+
+@media screen and (max-width: 550px) {
+* {
+	margin: 0px;
+	padding: 0px;
+	background-color: #4DD5FF;
+	width: 100%; 
+}
+#top{
+	background-color: black;
+	height: 40px;
+	border-right: 5px solid black;	
+	color: white;
+}
+#imgC{
+	height: 100%;
+	width: 33%;
+	display: inline-block;
+	vertical-align: middle;
+	background-color: black;
+}
+#top img {
+	display: inline-bock;
+	background-color: black;
+	vertical-align: middle;
+	max-height: 100%;
+	max-width: 100%;
+}
+#content{
+	width: 100%;
+}
+#OpenContainer {
+	width: 70%;
+	margin: 0;
+	margin-left: 13.5%;
+	float: left;	
+	height: 300px;
+	background-color: white;
+	border-radius: 3px;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+	overflow: hidden;
+}
+#wrap{
+	height:300px;
+	width: 100%;
+	height: 500px;
+	display: inline-block;
+	outline: 5px solid black;
+}
+#infoBox {
+	width:100%;
+	float: left;
+	height: 200px;
+	
+}
+#topText {
+	height: 100%;
+	width: 35%;
+	display: inline-block;
+	color: white;
+	font-size: 7px;
+	background-color: black;
+	vertical-align: middle;
+	float: right;
+}
+#leftButton {
+	margin-left: 2.5%;
+	margin-top: 125px;
+	float: left;
+	display: block;
+	vertical-align: middle;
+	width: 10%;
+	height: 60px;
+	position: absolute;
+	background-image: url('leftButton.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#rightButton {
+	
+	margin-left: 87.5%;
+	margin-top: 125px;
+	float: right;
+	vertical-align: middle;
+	width: 10%;
+	height: 60px;
+	position: absolute;
+	background-image: url('rightButton.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.text {
+	font-family: first;
+	text-align: center;
+	font-size: 0.666em;
+	line-height: 1;
+	z-index: 501;
+	line-height: 30px;	
+}
+.Menu {
+	width: 100%;
+
+}
+.Box {
+	width: 25%;
+	font-family: 'first';
+	float: left;
+	font-size: 14px;
+	line-height: 1;
+	color: white;
+	height: 30px;
+	outline: 5px solid black;
+}
+#aboutMe {
+	height: 500px;
+	width: 100%;
+	margin: 0px auto;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+#experience {
+	height: 500px;
+	width: 100%;
+	margin: 0px auto;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+#education {
+	background-color: white;
+	height: 500px;
+	width: 100%;
+	margin: 0px auto;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+#skills {
+	height: 500px;
+	width: 100%;
+	margin: 0px auto;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+}
+
