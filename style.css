@@ -27,6 +27,7 @@ img {
     display: inline-block;
 }
 
+
 #top{
 	background-color: black;
 	height: 100px;
@@ -177,7 +178,7 @@ img {
 #experience {
 	width: 100%;
 	margin: 0px auto;
-	border: 5px solid white;
+	border: 5px solid black;
 }
 #education {
 	width: 100%;
@@ -188,7 +189,7 @@ img {
 	height: 500px;
 	width: 100%;
 	margin: 0px auto;
-	border: 5px solid white;
+	border: 5px solid black;
 }
 
 @media screen and (max-width: 960px) {
