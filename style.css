@@ -32,7 +32,8 @@ img {
 	background-color: black;
 	height: 100px;
 	color: white;
-	border-right: 5px solid black;
+	border-right: 10px solid black;
+	margin: 0px auto;
 
 }
 #imgC{
@@ -96,6 +97,8 @@ img {
 #OpenContainer {
 	width: 30%;
 	margin-top: 0;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 	float: left;
 	height:100%;
 	margin-left: 10%;	
@@ -103,7 +106,7 @@ img {
 	border-radius: 3px;
 	border-left: 5px solid black;
 	border-right: 5px solid black;
-	overflow: hidden;
+	overflow: visible;
 }
 #Project {
 	width: 100%;
@@ -112,10 +115,10 @@ img {
 	margin-top: 0px;
 	font-family: first;
 	font-size: 70px;
-	TEXT-ALIGN: CENTER;
+	text-align: center;
 	vertical-align: center;
 	color: white;
-	border: white 5px solid;
+	outline: white 5px solid;
 }
 #wrap{
 	height: 400px;
@@ -123,6 +126,7 @@ img {
 	display: inline-block;
 	outline: 5px solid black;
 	background-color: white;
+	border-right: 5px solid black;
 }
 #infoBox {
 	width:40%;
@@ -130,7 +134,7 @@ img {
 	float: right;
 	height: 400px;
 	outline: 5px solid black;
-	
+	overflow: hidden;
 }
 .text {
 	font-family: first;
@@ -144,7 +148,8 @@ img {
 .Menu {
 
 	width: 100%;
-	margin: 0px;
+	margin: 0px auto;
+	border: 5px solid black;
 
 }
 .Box {
@@ -186,10 +191,12 @@ img {
 	border: 5px solid black;
 }
 #skills {
-	height: 500px;
+	
 	width: 100%;
 	margin: 0px auto;
 	border: 5px solid black;
+	border-bottom: 10px solid black;
+	padding-bottom: 5px;
 }
 
 @media screen and (max-width: 960px) {
@@ -240,7 +247,7 @@ img {
 	line-height: 80px;
 	margin-top: 0px;
 	font-family: first;
-	TEXT-ALIGN: CENTER;
+	text-align: center;
 	vertical-align: center;
 	color: white;
 }
